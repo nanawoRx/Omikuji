@@ -9,7 +9,7 @@ Java Script　=> js
 ・全体的な統合&バグ修正(html,js,css)
 
 
-### 役割分担
+### 役割分担  nanawo以外のメンバーの作成目安は9/25
 ・nanawo
 ・全体的な統合&バグ修正(html,js,css)
 ・kaji
