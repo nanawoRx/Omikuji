@@ -1,5 +1,6 @@
 console.log("実行開始")
 console.log("実行終了")
+
 //変数定義
 var luck, lucky_zodiac, compa_zodiac, good_food;
 var luck_array = []; //運勢
