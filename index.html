@@ -4,14 +4,33 @@
     <meta charset="UTF-8">
   </head>
   <body>
-    <h1>
+    <h1 id = title>
       h1です
       hoge
+      「天文研究会提供！！　　　　　　　　　　<br>
+      　　　　明日の運勢なんだろうな？」（仮）
     </h1>
 
-    <p>
-      本文
-    </p>
+    <!--
+    <form>
+      <label for="pass">パスワードを入力してください:</label>
+      <input type="text" id="pass">
+      <button type="button" onclick="display_omikuji()">OK</button>
+    </form>
+    -->
+
+    <!--説明＆おみくじ開始ボタン-->
+    <div id="start" style="display: block;"> 
+      <p>
+        「運勢も人も出会いは一期一会。この際占ってみよう！！」
+      </p>
+      <input id = "startbutton" type="button" value="おみくじ開始ボタン" onclick="display_result_omikuji()">    
+    </div>
+
+    <!--結果表示
+    <div id ="result"></div>
+    -->
+
   </body>
   <script src="omikuji.js"></script>
 </html>
