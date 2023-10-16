@@ -16,4 +16,8 @@ body{
   color: #454545; /*文字色*/
   /*グラデーション背景background   : linear-gradient(to bottom, #ffff99, #ffa64d);*/
   }
+
+.omikuji_result2{
+  color: gold;
+}
   
