@@ -1,0 +1,70 @@
+@charset "UTF-8";
+body{
+    background-image:url("https://drive.google.com/uc?id=1RuNm1h53xH6fgwx8I7mjBrxhttn10SnA");
+    background-size:cover;
+}
+.omikuji_result{
+  position: relative;
+  background: #ffee57; /*背景色*/
+  /*width: 500;
+  height: 2000;*/
+  box-shadow: 0px 0px 10px 10px #fff0cd;
+  /*border: dashed 2px white;*/
+  /*border: blue;*/
+  border: solid 3px rgba(0, 0, 255, 0.493);
+  padding: 0.2em 1em;
+  color: #454545; /*文字色*/
+  /*グラデーション背景background   : linear-gradient(to bottom, #ffff99, #ffa64d);*/
+  }
+  /*
+  position     : relative;
+  margin       : auto;
+  width        : 115px;
+  height       : 400px;
+  background   : linear-gradient(to bottom, #ffff99, #ffa64d);
+}
+/*.omikuji_result2 {
+    position     : relative;
+    margin       : auto;
+    width        : 115px;
+    height       : 400px;
+    background   : linear-gradient(to bottom, #ffff99, #ffa64d);
+  }
+  /*.omikuji_result {      /* 前面の文字エリア *//*
+    position     : absolute;
+    display      : inline-block;
+    top          : 40%;
+    left         : 50%;
+    padding      : 3px;
+    color        : rgb(117, 117, 117);
+    font-family  :"M PLUS Rounded 1c";
+    transform    : translate(-50%,-50%);
+    font-size    : 25pt;
+    border-radius: 20px;
+    writing-mode : vertical-rl;
+    margin-left  : auto;
+    margin-right : auto;
+  }
+  
+  .box25{
+    position: relative;
+    background: #fff0cd;
+    box-shadow: 0px 0px 0px 5px #fff0cd;
+    border: dashed 2px white;
+    padding: 0.2em 0.5em;
+    color: #454545;
+}
+.box25:after{
+    position: absolute;
+    content: '';
+    right: -7px;
+    top: -7px;
+    border-width: 0 15px 15px 0;
+    border-style: solid;
+    border-color: #ffdb88 #fff #ffdb88;
+    box-shadow: -1px 1px 1px rgba(0, 0, 0, 0.15);
+}
+.box25 p {
+    margin: 0; 
+    padding: 0;
+}
