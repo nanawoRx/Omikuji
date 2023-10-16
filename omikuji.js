@@ -1,4 +1,7 @@
-   
+console.log("実行開始")
+console.log("実行終了")
+
+
 //変数定義
 var luck, lucky_zodiac, compa_zodiac, good_food;
 var luck_array = []; //運勢
@@ -7,8 +10,17 @@ var compa_zodiac_array = []; //相性の良い星座
 var good_food_array = []; //食べ物
 var password = 1000;
 
+window.onload = function judge() {
+    var input_pass = prompt("パスワード");
+    //入力された値とパスワードの確認
+    if (input_pass!=password){
+        //エラー表示
+      alert("パスワードが違います")
+      judge()
+    }
+}
 
-
+/*
 //説明＆おみくじ開始ボタンの表示
 function display_omikuji(){
     //要素の取得   
@@ -27,6 +39,7 @@ function display_omikuji(){
         alert("error：パスワードが違います");
     }
 }
+*/
 
 //おみくじのランダム選択
 function select(){
@@ -36,7 +49,7 @@ function select(){
     good_food = good_food_array[Math.floor(Math.random()*good_food_array.length)]
     }
 
-
+/*
 //おみくじの結果
 function display_result_omikuji(){
     select();
@@ -50,5 +63,5 @@ var result = "運勢: " + luck + "<br>" +
 var resultElement = document.getElementById("result");
 resultElement.innerHTML = result;
 }
-
+*/
 
