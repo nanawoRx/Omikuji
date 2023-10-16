@@ -2,6 +2,9 @@
 body{
     background-image:url("https://drive.google.com/uc?id=1RuNm1h53xH6fgwx8I7mjBrxhttn10SnA");
     background-size:cover;
+    padding: 0.5em 1em;
+    margin: 2em 0;
+    border: double 5px #4ec4d3;
 }
 .omikuji_result{
   position: relative;
@@ -14,6 +17,10 @@ body{
   border: solid 3px rgba(0, 0, 255, 0.493);
   padding: 0.2em 1em;
   color: #454545; /*文字色*/
+  position     : absolute;
+  display      : inline-block;
+  top          : 40%;
+  left         : 40%;
   /*グラデーション背景background   : linear-gradient(to bottom, #ffff99, #ffa64d);*/
   }
   /*
