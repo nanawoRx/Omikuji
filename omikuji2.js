@@ -20,14 +20,16 @@ function select(){
 function display_result_omikuji(){
     /*document.getElementById("start").style.display = "none";*/
     select();
-    var result = "運勢: " + luck
+    var result = "い"+luck
     var result2 = "ラッキー星座: " + lucky_zodiac[0] + "<br>"+
-    "豆知識: " + lucky_zodiac[1]+"<br>" +
-    "相性の良い星座: " + compa_zodiac + "<br>" +
+    "豆知識: " + lucky_zodiac[1]+"<br>" 
+    var result3 = "相性の良い星座: " + compa_zodiac + "<br>" +
     "今日食べると良いもの: " + good_food + "<br>" ;
     // 出力をHTML内の要素に挿入
     var  resultElement = document.getElementById("result")/*.style.display = "block"*/;
     resultElement.innerHTML = result;
     var resultElement = document.getElementById("result2")/*.style.display = "block"*/;
     resultElement.innerHTML = result2;
+    var resultElement = document.getElementById("result3")/*.style.display = "block"*/;
+    resultElement.innerHTML = result3;
 }
