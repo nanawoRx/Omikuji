@@ -27,7 +27,7 @@ var lucky_zodiac_array = [
 ]; //ラッキー星座と豆知識
 var compa_zodiac_array = ["牡羊座","牡牛座","双子座","蟹座","獅子座","乙女座","天秤座","蠍座","射手座","山羊座","水瓶座","魚座"]; //相性の良い星座
 var good_food_array = ["煮卵","宇宙食","団子","月見バーガー","豚汁","ポトフ","ドーナツ","サツマイモ","カレー"]; //食べ物 煮卵を煮た孫
-var password = 1;
+var password = 5621;
 
 //パスワード
 window.onload = function judge() {
