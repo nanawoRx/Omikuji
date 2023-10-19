@@ -1,13 +1,15 @@
 <html>
   <head>
-    <title>テステス</title>
+    <title>天文おみくじ</title>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="omikuji_view.css">
+    <link href="link href="https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c" rel="stylesheet">
   </head>
   <body>
     <h1 id = title>
 
       「天文研究会提供！！　　　　　　　　　　<br>
-      　　　　明日の運勢なんだろうな？」（仮）
+      　　　　明日の運勢なんだろうな？」
 
     </h1>
 
@@ -22,14 +24,22 @@
     <!--説明＆おみくじ開始ボタン-->
     <div id="start" style="display: block;"> 
       <p>
-        「運勢も人も出会いは一期一会。この際占ってみよう！！」
+        運勢も人も出会いは一期一会。この際占ってみよう！！
       </p>
-      <input id = "startbutton" type="button" value="おみくじ開始ボタン" onclick="display_result_omikuji()">    
+      <input id = "startbutton" type="button" value="おみくじ開始!!" onclick="display_result_omikuji()">    
     </div>
 
     <!--結果表示
     <div id ="result"></div>
     -->
+
+    <!--おみくじ結果表示-->
+    <div id ="omikuji" style="display:none;">
+      <div class="omikuji_result" id ="result" style="text-align:center"></div>
+      <div class="omikuji_result2" id ="result2" ></div>
+      <div class="omikuji_result3" id ="result3" ></div>
+    </div>
+
 
   </body>
   <script src="omikuji.js"></script>
